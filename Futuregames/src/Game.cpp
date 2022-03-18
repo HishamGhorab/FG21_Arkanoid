@@ -20,7 +20,6 @@ const char* LEVEL =
 
 Player player(GAMESIZE_X/2, GAMESIZE_Y/2 + 300);
 Block* blocks[MAP_COLS * MAP_ROWS] = { nullptr };
-//Ball ball;
 
 vector<Ball> balls;
 

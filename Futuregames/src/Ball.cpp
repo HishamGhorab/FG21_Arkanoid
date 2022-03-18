@@ -9,12 +9,12 @@ const float PI = 3.1415;
 
 void Ball::update()
 {
-	if (!step(0, velocity_y * delta_time)) //it enters but does the value ever get changed
+	if (!step(0, velocity_y * delta_time))
 	{
 		velocity_y *= -1;
 	}
 
-	if (!step(velocity_x * delta_time, 0)) //it enters but does the value ever get changed
+	if (!step(velocity_x * delta_time, 0))
 	{
 		velocity_x *= -1;
 	}

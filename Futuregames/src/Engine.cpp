@@ -3,7 +3,6 @@
 SDL_Window* window;
 SDL_Renderer* render;
 
-//bool keys[SDL_NUM_SCANCODES] = { false };
 Key_State keys[SDL_NUM_SCANCODES];
 
 bool get_key(SDL_Scancode key)

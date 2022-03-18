@@ -22,7 +22,6 @@ bool Player::step(float dx)
 		return false;
 	
 	x += dx;
-	//move?
 	return true;
 }
 

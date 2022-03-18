@@ -8,12 +8,10 @@
 
 int main()
 {
-	//is this how you create a screen? LETS SEE GUYS!
 	SDL_Init(SDL_INIT_EVERYTHING);
 	window = SDL_CreateWindow("Game", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, GAMESIZE_X, GAMESIZE_Y, 0);
 	render = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-	//IT DID IT FOR 1 FRAME? why? lets figure out!
 	bool running = true;
 	Uint64 previous_ticks = SDL_GetPerformanceCounter();
 
@@ -33,7 +31,7 @@ int main()
 		{
 			switch (event.type)
 			{
-			case SDL_QUIT: //This turns the game off
+			case SDL_QUIT:
 				running = false;
 				break;
 			case SDL_KEYDOWN:
@@ -45,7 +43,6 @@ int main()
 				if (scancode == SDL_SCANCODE_ESCAPE)
 					running = false;
 
-				//keys[scancode] = true;
 				keys[scancode].state = true;
 				keys[scancode].change_frame = frame_number;
 
@@ -54,7 +51,6 @@ int main()
 			case SDL_KEYUP:
 			{
 				int scancode = event.key.keysym.scancode;
-				//keys[scancode] = false;
 				keys[scancode].state = false;
 				keys[scancode].change_frame = frame_number;
 
@@ -69,9 +65,6 @@ int main()
 		player.update();
 		player.draw();
 
-		//ball.update();
-		//ball.draw();
-
 		for (int i = 0; i < balls.size(); i++)
 		{
 			balls[i].update();
@@ -80,14 +73,13 @@ int main()
 
 		for (int i = 0; i < NUM_BLOCKS; i++)
 		{
-			Block* block = blocks[i]; //point at blocks[i]
+			Block* block = blocks[i];
 			if (block == nullptr)
 				continue;
 
 			block->draw();
 		}
 
-		//this capps it to 60fps? 
 		SDL_Delay(16);
 
 		SDL_RenderPresent(render);
