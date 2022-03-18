@@ -1,0 +1,47 @@
+﻿  Ball.cpp
+C:\C++projects\Futuregames\src\Ball.cpp(8,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\C++projects\Futuregames\src\Ball.cpp(45,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Ball.cpp(44,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Ball.cpp(43,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Ball.cpp(42,16): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Block.cpp
+C:\C++projects\Futuregames\src\Block.cpp(7,36): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++projects\Futuregames\src\Block.cpp(7,36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Block.cpp(7,39): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++projects\Futuregames\src\Block.cpp(7,39): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Collision.cpp
+C:\C++projects\Futuregames\src\Collision.cpp(5,24): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\C++projects\Futuregames\src\Collision.cpp(16,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(17,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(21,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(22,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(29,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(28,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(27,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(26,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(42,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(63,6): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+C:\C++projects\Futuregames\src\Collision.cpp(63,6): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(64,6): warning C4838: conversion from 'const float' to 'int' requires a narrowing conversion
+C:\C++projects\Futuregames\src\Collision.cpp(64,6): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(65,13): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++projects\Futuregames\src\Collision.cpp(65,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(66,13): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++projects\Futuregames\src\Collision.cpp(66,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Collision.cpp(99,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Engine.cpp
+C:\C++projects\Futuregames\src\Engine.cpp(25,18): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Game.cpp
+C:\C++projects\Futuregames\src\Game.cpp(43,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++projects\Futuregames\src\Game.cpp(44,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+C:\C++projects\Futuregames\src\main.cpp(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Player.cpp
+C:\C++projects\Futuregames\src\Player.cpp(15,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++projects\Futuregames\src\Player.cpp(16,12): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\C++projects\Futuregames\src\Player.cpp(56,41): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++projects\Futuregames\src\Player.cpp(56,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\C++projects\Futuregames\src\Player.cpp(56,44): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\C++projects\Futuregames\src\Player.cpp(56,44): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  FutureGames_SDL.vcxproj -> C:\C++projects\Futuregames\bin\Game_Debug.exe
